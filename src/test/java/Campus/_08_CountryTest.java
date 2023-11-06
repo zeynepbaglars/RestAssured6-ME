@@ -135,7 +135,7 @@ public class _08_CountryTest {
 
                 .then()
                 .log().body()
-                .statusCode(400)
+                .statusCode(200)
         ;
     }
 
